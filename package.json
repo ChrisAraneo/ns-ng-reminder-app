@@ -1,9 +1,9 @@
 {
-  "name": "@nativescript/template-hello-world-ng",
+  "name": "@chrisaraneo/ns-ng-reminder-app",
   "main": "src/main.ts",
-  "version": "8.0.5",
-  "author": "NativeScript Team <oss@nativescript.org>",
-  "description": "NativeScript Application",
+  "version": "0.1.0",
+  "author": "Krzysztof Pająk",
+  "description": "Mobile app for setting reminders and notifications",
   "license": "SEE LICENSE IN <your-license-filename>",
   "publishConfig": {
     "access": "public"
@@ -22,12 +22,11 @@
     "nativescript",
     "mobile",
     "angular",
-    "{N}",
-    "template"
+    "{N}"
   ],
-  "repository": "<fill-your-repository-here>",
+  "repository": "https://github.com/ChrisAraneo/ns-ng-reminder-app.git",
   "bugs": {
-    "url": "https://github.com/NativeScript/NativeScript/issues"
+    "url": "https://github.com/ChrisAraneo/ns-ng-reminder-app/issues"
   },
   "dependencies": {
     "@angular/animations": "~11.2.7",
@@ -47,12 +46,11 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "~11.2.7",
-    "@nativescript/android": "8.0.0",
     "@nativescript/types": "~8.0.0",
     "@nativescript/webpack": "beta",
     "@ngtools/webpack": "~11.2.6",
     "typescript": "~4.0.0"
   },
   "private": "true",
-  "readme": "NativeScript Application"
+  "readme": "Mobile app for setting reminders and notifications"
 }
